@@ -1,1 +1,119 @@
+body {
+  background-color: black;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin:24px 100px;
+}
 
+.login {
+  
+  color: white;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 100px;
+  font-family: Poppins;
+  margin-top: 100px;
+}
+
+
+.inputBox {
+  background-color: black;
+  color: cornsilk;
+width:28%;
+  padding-left: 2px;
+  padding-right:72px;
+  padding-top:12px;
+  padding-bottom: 12px;
+  border-radius: 12px;
+  margin:8px auto;
+  margin-top: 28px;
+  display: block;
+}
+.inputButton {
+  color: white;
+  margin: 6px auto;
+  width: 32%;
+  background-color:blueviolet;
+  padding:0 72px;
+  padding-top: 12px;
+  padding-bottom:12px;
+  border-radius: 12px;
+  margin-top: 24px;
+}
+.span {
+margin-top: 24px;
+}
+.icon input{
+  width: 28%;
+  margin:8px auto;
+  padding-right:72px;
+}
+.icon {
+  display: flex;
+
+}
+.icon .fa-solid fa-eye{
+  position: absolute;
+}
+.adminDashboard {
+  color:white;
+  text-align: center;
+}
+.songInfo {
+margin-left: 24%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 12px;
+}
+h3{
+  width: 32%;
+}
+.radioButton {
+  padding: 16px;
+  /* padding-left: 44px; */
+}
+.labelButton {
+  padding: 16px;
+  
+}
+.songDescription {
+  margin-right: 12%;
+}
+.songInfo .input{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 16px 4px;
+  width: 24%;
+  margin: 0 4px;
+  margin-left: 12px;
+  border-radius:12px ;
+}
+.songInfo .valueButton{
+  margin-left:28%;
+  margin-top: -4%;
+}
+.songInfo .valueButton input{
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 8%;
+  padding: 12px 8px;
+  margin-left: 4px;
+  
+  border-radius: 12px;
+}
+.barGraph {
+  width: 44%;
+  margin-left: 28%;
+}
+.saveButton {
+  margin-left: 28%;
+  text-align: center;
+  width: 64%;
+  background-color: blueviolet;
+  padding: 16px ;
+  border-radius: 12px;
+}
