@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import BarGraph from "./BarGraph";
@@ -6,7 +6,6 @@ import BarGraph from "./BarGraph";
 const LandingPage = () => {
   const user = useSelector((store) => store.user);
   const navigate = useNavigate();
-  const [disabled, setDisabled] = useState(false);
   const [userdata, setData] = useState({
     id: null,
     name: null,
