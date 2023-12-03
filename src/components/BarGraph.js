@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { CChart } from "@coreui/react-chartjs";
+import {useSelector} from "react-redux";
 
-const BarGraph = () => {
+const BarGraph = ({graphData}) => {
+  
   return (
     <div className="barGraph">
       <CChart
@@ -17,7 +19,7 @@ const BarGraph = () => {
           datasets: [
             {
               
-              data: [80, 70, 52, 39, 20],
+              data: [graphData.category_6, graphData.category_7, graphData.category_8, graphData.category_9, graphData.category_10],
               backgroundColor: [
                 'rgba(250, 197, 224, 0.8)',
                 'rgba(250, 197, 224, 0.8)',
@@ -29,7 +31,7 @@ const BarGraph = () => {
             },
           ],
         }}
-        labels="months"
+
         options={{
           plugins: {
             legend: {
@@ -58,7 +60,7 @@ const BarGraph = () => {
           },
         }}
       />
-       <button className='saveButton'>Save</button>
+      
     </div>
   );
 };

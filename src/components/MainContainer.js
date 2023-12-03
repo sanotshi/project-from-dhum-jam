@@ -12,6 +12,7 @@ const MainContainer = () => {
     {
       path:"/landingPage",
       element:<LandingPage />,
+      
     },
   ])
 
